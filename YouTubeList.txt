@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: OzzisYouTubeBlocker
-! Description: A RMT block list for sites that breach Blizzard's TOS and AUP; RMT = Real Money Trade; TOS = Terms of Service; AUP Acceptable Use Policy
+! Description: A YouTube block list for Mix selections that gets placed in your feed and other things like Shorts etc.
 ! Version: 1.0
 ! last modified: 2024-12-31
 ! homepage: https://github.com/Ozzi448/YouTube
-! License: https://raw.githubusercontent.com/Ozzi448/WoWRMT/refs/heads/main/LICENSE
+! License: https://raw.githubusercontent.com/Ozzi448/YouTube/refs/heads/main/LICENSE
 
 www.youtube.com##yt-lockup-view-model.lockup.ytd-item-section-renderer:nth-of-type(even)
 www.youtube.com##yt-lockup-view-model.lockup.ytd-item-section-renderer:nth-of-type(odd)
