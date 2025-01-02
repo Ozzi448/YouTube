@@ -10,3 +10,4 @@ www.youtube.com##yt-lockup-view-model.lockup.ytd-item-section-renderer:nth-of-ty
 www.youtube.com##yt-lockup-view-model.lockup.ytd-item-section-renderer:nth-of-type(odd)
 www.youtube.com##.yt-collection-thumbnail-view-model > .collections-stack-wiz > div > .collections-stack-wiz__collection-stack*
 www.youtube.com##.collections-stack-wiz__collection-stack1--medium.collections-stack-wiz__collection-stack*
+www.youtube.com##.lockup.ytd-rich-item-renderer > .yt-lockup-view-model-wiz--collection-stack-2.yt-lockup-view-model-wiz--vertical.yt-lockup-view-model-wiz > .yt-lockup-view-model-wiz__content-image > .yt-collection-thumbnail-view-model > .collections-stack-wiz > div > .collections-stack-wiz__collection-stack1--medium.collections-stack-wiz__collection-stack*
