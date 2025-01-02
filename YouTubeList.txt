@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: OzzisYouTubeBlocker
 ! Description: A YouTube block list for Mix selections that gets placed in your feed and other things like Shorts etc.
-! Version: 1.0
+! Version: 1.1
 ! last modified: 2024-12-31
 ! Expires: 1 hour (update frequency)
 ! homepage: https://github.com/Ozzi448/YouTube
