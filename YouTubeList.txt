@@ -8,3 +8,4 @@
 
 www.youtube.com##yt-lockup-view-model.lockup.ytd-item-section-renderer:nth-of-type(even)
 www.youtube.com##yt-lockup-view-model.lockup.ytd-item-section-renderer:nth-of-type(odd)
+##.yt-collection-thumbnail-view-model > .collections-stack-wiz > div > .collections-stack-wiz__collection-stack*
