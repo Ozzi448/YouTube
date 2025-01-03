@@ -14,3 +14,6 @@ domain=youtube.com
 ##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(odd)
 ##ytd-browse.ytd-page-manager.style-scope:nth-of-type(even)
 ##ytd-browse.ytd-page-manager.style-scope:nth-of-type(odd)
+##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(175)
+##div:nth-of-type(even)
+##div:nth-of-type(odd)
