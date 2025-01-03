@@ -8,27 +8,35 @@
 ! License: https://raw.githubusercontent.com/Ozzi448/YouTube/refs/heads/main/LICENSE
 
 
-/http:\/\/youtube\.com\^##yt-lockup-view-model.lockup.ytd-item-section-renderer:nth-of-type([\d+])
-/http:\/\/youtube\.com\^##yt-lockup-view-model.lockup.ytd-item-section-renderer:nth-of-type([\d+])
-/http:\/\/youtube\.com\^##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type([\d+])
-/http:\/\/youtube\.com\^##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type([\d+])
-/http:\/\/youtube\.com\^##ytd-browse.ytd-page-manager.style-scope:nth-of-type([\d+])
-/http:\/\/youtube\.com\^##ytd-browse.ytd-page-manager.style-scope:nth-of-type([\d+])
-/http:\/\/youtube\.com\^##div:nth-of-type([\d+])
-/http:\/\/youtube\.com\^##div:nth-of-type([\d+])
-/http:\/\/youtube\.com\^##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this
-/http:\/\/youtube\.com\^##.ytp-ce-element.ytp-ce-video.ytp-ce-element-show
-/http:\/\/youtube\.com\^##.ytp-ce-element.ytp-ce-bottom-right-quad.ytp-ce-size-640
-/http:\/\/youtube\.com\^##.ytp-ce-covering-overlay
-/http:\/\/youtube\.com\^##.ytp-ce-element-shadow
-/http:\/\/youtube\.com\^##.ytp-ce-covering-image
-/http:\/\/youtube\.com\^##.ytp-ce-expanding-image
-/http:\/\/youtube\.com\^##.ytp-pause-overlay
-/http:\/\/youtube\.com\^##.ytp-scroll-min.ytp-pause-overlay
-/http:\/\/youtube\.com\^##.iv-click-target
-/http:\/\/youtube\.com\^##.ytp-cards-button
-/http:\/\/youtube\.com\^##.ytp-cards-teaser
-/http:\/\/youtube\.com\^##.ytp-ce-covering-image
-/http:\/\/youtube\.com\^##.ytp-ce-covering-overlay
-/http:\/\/youtube\.com\^##.ytp-ce-element
-/http:\/\/youtube\.com\^##.ytp-ce-element-shadow
+! Removes Mixes from the Main Page
+youtube.com##ytd-rich-item-renderer:has([href$="start_radio=1"])
+! Removes Mixes from the right side panel
+youtube.com##ytd-compact-radio-renderer
+! Removes Mixes from the right side panel (Dec 2024)
+youtube.com###related yt-lockup-view-model:has([href*="&start_radio=1&"])
+! Removes Mixes from search results
+youtube.com##ytd-radio-renderer
+! Removes Mixes from search results (Dec 2024)
+youtube.com##ytd-search yt-lockup-view-model:has([href$="&start_radio=1"][aria-label])
+! Removes Mixes from Video End Cards
+youtube.com##.ytp-videowall-still[data-is-mix="true"]
+
+! Removes "YouTube" (Music) playlists from the right side panel
+youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
+
+! youtube.com##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this
+! youtube.com##.ytp-ce-element.ytp-ce-video.ytp-ce-element-show
+! youtube.com##.ytp-ce-element.ytp-ce-bottom-right-quad.ytp-ce-size-640
+! youtube.com##.ytp-ce-covering-overlay
+! youtube.com##.ytp-ce-element-shadow
+! youtube.com##.ytp-ce-covering-image
+! youtube.com##.ytp-ce-expanding-image
+! youtube.com##.ytp-pause-overlay
+! youtube.com##.ytp-scroll-min.ytp-pause-overlay
+! youtube.com##.iv-click-target
+! youtube.com##.ytp-cards-button
+! youtube.com##.ytp-cards-teaser
+! youtube.com##.ytp-ce-covering-image
+! youtube.com##.ytp-ce-covering-overlay
+! youtube.com##.ytp-ce-element
+! youtube.com##.ytp-ce-element-shadow
