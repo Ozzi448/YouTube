@@ -8,15 +8,14 @@
 ! License: https://raw.githubusercontent.com/Ozzi448/YouTube/refs/heads/main/LICENSE
 
 
-||youtube.com,i.ytimg.com^##yt-lockup-view-model.lockup.ytd-item-section-renderer:nth-of-type(even)
-||youtube.com,i.ytimg.com^##yt-lockup-view-model.lockup.ytd-item-section-renderer:nth-of-type(odd)
-||youtube.com,i.ytimg.com^##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(even)
-||youtube.com,i.ytimg.com^##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(odd)
-||youtube.com,i.ytimg.com^##ytd-browse.ytd-page-manager.style-scope:nth-of-type(even)
-||youtube.com,i.ytimg.com^##ytd-browse.ytd-page-manager.style-scope:nth-of-type(odd)
-||youtube.com,i.ytimg.com^##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(175)
-||youtube.com,i.ytimg.com^##div:nth-of-type(even)
-||youtube.com,i.ytimg.com^##div:nth-of-type(odd)
+||youtube.com,i.ytimg.com^##yt-lockup-view-model.lockup.ytd-item-section-renderer:nth-of-type([\d+])
+||youtube.com,i.ytimg.com^##yt-lockup-view-model.lockup.ytd-item-section-renderer:nth-of-type([\d+])
+||youtube.com,i.ytimg.com^##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type([\d+])
+||youtube.com,i.ytimg.com^##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type([\d+])
+||youtube.com,i.ytimg.com^##ytd-browse.ytd-page-manager.style-scope:nth-of-type([\d+])
+||youtube.com,i.ytimg.com^##ytd-browse.ytd-page-manager.style-scope:nth-of-type([\d+])
+||youtube.com,i.ytimg.com^##div:nth-of-type([\d+])
+||youtube.com,i.ytimg.com^##div:nth-of-type([\d+])
 ||youtube.com,i.ytimg.com^##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this
 ||youtube.com,i.ytimg.com^##.ytp-ce-element.ytp-ce-video.ytp-ce-element-show
 ||youtube.com,i.ytimg.com^##.ytp-ce-element.ytp-ce-bottom-right-quad.ytp-ce-size-640
