@@ -8,12 +8,28 @@
 ! License: https://raw.githubusercontent.com/Ozzi448/YouTube/refs/heads/main/LICENSE
 
 domain=youtube.com
-##yt-lockup-view-model.lockup.ytd-item-section-renderer:nth-of-type(even)
-##yt-lockup-view-model.lockup.ytd-item-section-renderer:nth-of-type(odd)
-##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(even)
-##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(odd)
-##ytd-browse.ytd-page-manager.style-scope:nth-of-type(even)
-##ytd-browse.ytd-page-manager.style-scope:nth-of-type(odd)
-##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(175)
-##div:nth-of-type(even)
-##div:nth-of-type(odd)
+http://youtbe.com/##yt-lockup-view-model.lockup.ytd-item-section-renderer:nth-of-type(even)
+http://youtbe.com/##yt-lockup-view-model.lockup.ytd-item-section-renderer:nth-of-type(odd)
+http://youtbe.com/##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(even)
+http://youtbe.com/##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(odd)
+http://youtbe.com/##ytd-browse.ytd-page-manager.style-scope:nth-of-type(even)
+http://youtbe.com/##ytd-browse.ytd-page-manager.style-scope:nth-of-type(odd)
+http://youtbe.com/##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(175)
+http://youtbe.com/##div:nth-of-type(even)
+http://youtbe.com/##div:nth-of-type(odd)
+http://youtube.com/##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this
+http://youtube.com/##.ytp-ce-element.ytp-ce-video.ytp-ce-element-show
+http://youtube.com/##.ytp-ce-element.ytp-ce-bottom-right-quad.ytp-ce-size-640
+http://youtube.com/##.ytp-ce-covering-overlay
+http://youtube.com/##.ytp-ce-element-shadow
+http://youtube.com/##.ytp-ce-covering-image
+http://youtube.com/##.ytp-ce-expanding-image
+http://youtube.com/##.ytp-pause-overlay
+http://youtube.com/##.ytp-scroll-min.ytp-pause-overlay
+http://youtube.com/##.iv-click-target
+http://youtube.com/##.ytp-cards-button
+http://youtube.com/##.ytp-cards-teaser
+http://youtube.com/##.ytp-ce-covering-image
+http://youtube.com/##.ytp-ce-covering-overlay
+http://youtube.com/##.ytp-ce-element
+http://youtube.com/##.ytp-ce-element-shadow
